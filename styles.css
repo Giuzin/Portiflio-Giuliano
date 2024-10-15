@@ -3,7 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #005776;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,11 +13,11 @@ header {
     background-color: #005776;
     color: #fff;
     padding: 20px 10px;
-    text-align: center;
-    position: sticky;
+    text-align: start;
+    position: static;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 5px 10px rgba(92, 121, 184, 0.432);
+    box-shadow: 0 5px 10px #005776;
     border-radius: 15px 15px 20px 20px;
 }
 
@@ -46,7 +46,7 @@ nav ul {
 }
 
 nav a {
-    color: #fff;
+    color: #005776;
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
@@ -59,11 +59,11 @@ nav a:hover {
 
 section {
     padding: 60px 20px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #005776;
     background: #fff;
     border-radius: 20px;
     margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px #005776;
 }
 
 section img {
@@ -79,7 +79,7 @@ section img:hover {
 h2 {
     margin-bottom: 30px;
     font-size: 2.5rem;
-    color: #333;
+    color: #005776;
     text-align: center;
     position: relative;
 }
@@ -106,14 +106,14 @@ h3 {
 
 h3:hover {
     color: #005776;
-    background: #e6f2ff;
+    background: #88fffb;
 }
 
 .collapse {
     margin-top: 15px;
     padding: 20px;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
+    background: #caf1ff;
+    border: 1px solid #005776;
     border-radius: 5px;
     animation: fadeIn 0.5s ease;
 }
